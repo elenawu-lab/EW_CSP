@@ -24,3 +24,4 @@ print(your_favorite_subject_in_school)
 
 # blah blah blah
 print(your_age)
+print(your_name)
