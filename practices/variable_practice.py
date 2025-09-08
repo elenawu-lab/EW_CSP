@@ -1,4 +1,4 @@
-# E.W 7 Variable Notes
+# E.W 7th Variable Notes
 
 your_name = ("elena")
 number_between_1_and_10 = 4
