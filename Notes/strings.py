@@ -10,3 +10,13 @@ full_name = first_name + " " + last_name
 print("Welcome to my program", full_name + "!")
 
 # Sanitization and stupid proofing
+# Debugging is fixing code
+
+numOne = "1"
+numTwo = "2"
+print(numOne+numTwo)
+
+sentence = "The quick brown fox jumps over the lazy dog."
+print(sentence.find("jumps"))
+print(sentence[20:25])
+print(sentence[sentence.find("lazy"): len("lazy")+sentence.find("lazy")])
