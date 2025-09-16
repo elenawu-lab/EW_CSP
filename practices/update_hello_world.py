@@ -1,10 +1,11 @@
 # E.W 7 Update Hello World
 
-def hello(username):
-    username = input("What is your name?\n").strip().title()
-    print("Hello", username)
+def hello(name):
+    print(f"Hello {name}")
 
-hello()
-hello()
-hello()
-hello()
+name = input("What is your name?\n")
+hello("Elena")
+hello("Sierra")
+hello("Jason")
+hello("Wildon")
+hello(name)
