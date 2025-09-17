@@ -14,7 +14,7 @@ rent = money("rent")
 util = money("utilities")
 groc = money("groceries")
 trans = money("transportation")
-save = (income * 0.10 * (income*1))
+save = income * 0.10 
 spend = income - (util + rent + groc + trans + save)
 
 print("Your rent is $", rent, "and that is", (rent/income*100), " of your income.")
