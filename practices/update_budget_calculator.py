@@ -5,22 +5,16 @@
 # Spending = income - (utilities + rent + groceries + transportation + savings)
 # Percent_rent=rent/income*100
 
-income = int(input("What is your monthly income\n"))
-rent = int(input("What is your monthly rent cost?\n"))
-util = int(input("What is your monthly utilities?\n"))
-groc = int(input("What is your monthly grocery cost?\n"))
-trans = int(input("What is your daily transportation cost?\n"))
-save = income * 0.10 * (income*1)
-spend = income - (util + rent + groc + trans + save)
-
-def what(money):
-    result = input(money)
+def money(sum):
+    result = input(f"What is your monthly {sum} cost?\n")
     return result
-money = input(f"What is your monthly () cost?\n")
-money(rent)
-money(utilities)
-money(transportation)
-save = income * 0.10 * (income*1)
+
+income = money("income")
+rent = money("rent")
+util = money("utilities")
+groc = money("groceries")
+trans = money("transportation")
+save = (income * 0.10 * (income*1))
 spend = income - (util + rent + groc + trans + save)
 
 print("Your rent is $", rent, "and that is", (rent/income*100), " of your income.")
