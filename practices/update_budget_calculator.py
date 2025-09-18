@@ -14,12 +14,14 @@ rent = money("rent")
 util = money("utilities")
 groc = money("groceries")
 trans = money("transportation")
-save = income * 0.10 
-spend = income - (util + rent + groc + trans + save)
+spend = income - (util + rent + groc + trans)
 
-print("Your rent is $", rent, "and that is", (rent/income*100), " of your income.")
-print("Your utilities is $", util, "and that is", (util/income*100), " of your income")
-print("Your groceries is $", groc, "and that is", (groc/income*100), " of your income")
-print("Your transportation is $", trans, "and that is", (trans/income*100), " of your income")
-print("Your savings is $", save, "and that is", (save/income*100), " of your income")
-print("You have $", spend,"of spending money each month!")
+def perc(ans):
+    result = float(ans/income*100)
+    return result
+
+print(f"Your rent is ${rent} and that is {perc(rent)}% of your income.")
+print(f"Your utilities is ${util} and that is {perc(util)}% of your income")
+print(f"Your groceries is ${groc} and that is {perc(groc)}% of your income")
+print(f"Your transportation is ${trans} and that is {perc(trans)}% of your income")
+print(f"You have ${spend} of spending money each month!")
