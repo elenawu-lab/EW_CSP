@@ -55,8 +55,10 @@ while True:
 # What is iteration
 # It is one loop of the same code
 # What are lists?
-# 
+# It is a data structure of items.
 # How do you make lists in python?
-# 
+# You use square brackets and then list the items with 
 # How do you make for loops in python?
+# A loop following instructions intil it stops
 # How do you make while loops in python?
+# How many times loop has run set stopping point, increase iterator. Infinite loop would destroy computer
