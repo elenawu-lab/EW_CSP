@@ -3,11 +3,9 @@
 fammems = ["Wildon", "Kristin", "Sierra", "Jason"]
 
 fammems[0] = "Dad"
-fammems[1] = "Mom"
+fammems[1] = "Mother"
 fammems[2] = "Sister"
 fammems[3] = "Brother"
 
-print(f"Hello {fammems[0]}")
-print(f"Hello {fammems[1]}")
-print(f"Hello {fammems[2]}")
-print(f"Hello {fammems[3]}")
+for fammem in fammems:
+    print(f"Hi {fammem}")
