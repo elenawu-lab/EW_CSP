@@ -34,7 +34,7 @@ int main(void){
 // What is type casting in C? Provide an example of explicit type casting.
     // We change the data type, you can do it with a float and a integer.
 // How do compound assignment operators work in C? List three examples.
-    // printf("%d", year), year += 1;, year++;
+    // Some compound operators are printf("%d", year), year += 1;, year++;
 // What is the purpose of the math.h library? Name three functions it provides.
     //
 // How do you print a float with a specific number of decimal places using printf()?
