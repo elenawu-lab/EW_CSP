@@ -23,24 +23,24 @@ int main(void){
 // What is the main difference between declaring variables in Python and C?
     // We need to set how much space to save
 // In C, what is the purpose of specifying a data type when declaring a variable?
-    // the data will change depending on data type so the program can convert things into strings
+    // The data will change depending on data type so the program can convert things into strings
 // List three common data types used in C and their corresponding format specifiers for printf().
     // int, 4 bytes = d. float, 4 bytes = f. double, 8 bytes = if. char 1 bytes = c = list of characters for a string = s
 // How do you declare and initialize an integer variable named "age" with the value 25 in C?
-    //
+    // You put float age = 25
 // What is the difference between printf() and scanf() functions in C?
-    //
+    // printf is for outputing information, scanf is for inputting information
 // How do you add comments in C?
-    // you add double slashes instead of hashtags
+    // You add double slashes instead of hashtags
 // What is the purpose of the #include <stdio.h> line at the beginning of a C program?
-    //
+    // It declares what is going to be in the file, necessary for the program to understand the information.
 // In C, what is the significance of the main() function?
     // You need to add a function for everything, unlike python
 // What is the difference between %d and %f format specifiers in printf()?
-    // d is a integer, f is a float
+    // d is a integer, f is a float.
 // How do you print a newline character in C?
-    // 
+    // It makes everything be printed on a new line, since it is not automatic in c.
 // What is the purpose of the & symbol when using scanf() to get user input?
-    //
-// How do you declare a constant in C? Provide an example.
+    // It is so the scanf so it knows where to store the users input.
+// How do you declare a constant in C?
     // It does not exist in python. It marks a variable so it cannot be changed.
