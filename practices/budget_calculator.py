@@ -5,12 +5,12 @@
 # Spending = income - (utilities + rent + groceries + transportation + savings)
 # Percent_rent=rent/income*100
 
-income = int(input("What is your monthly income\n"))
-rent = int(input("What is your monthly rent cost?\n"))
-util = int(input("What is your monthly utilities?\n"))
-groc = int(input("What is your monthly grocery cost?\n"))
-trans = int(input("What is your daily transportation cost?\n"))
-save = income * 0.10 * (income*1)
+income = float(input("What is your monthly income\n"))
+rent = float(input("What is your monthly rent cost?\n"))
+util = float(input("What is your monthly utilities?\n"))
+groc = float(input("What is your monthly grocery cost?\n"))
+trans = float(input("What is your daily transportation cost?\n"))
+save = income * 0.10
 spend = income - (util + rent + groc + trans + save)
 
 print("Your rent is $", rent, "and that is", (rent/income*100), " of your income.")
