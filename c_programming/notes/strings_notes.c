@@ -9,14 +9,13 @@ int main(void){
     printf("Tell me your last name: \n");
     scanf("%s", last_name);
     char full_name[50];
-    printf("%s\n", full_name);
     strcat(full_name, last_name);
     printf("%s\n", full_name);
 
     printf("%c\n", last_name[0]);
     last_name[0] = 'R';
 
-    strcat(full_name, " ");
+    strcat(full_name, " e.w");
     printf("%s\n", full_name);
 
     strcat(full_name, last_name);

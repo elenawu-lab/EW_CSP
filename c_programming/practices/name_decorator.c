@@ -3,10 +3,27 @@
 #include <string.h>
 
 int main(void){
+    //char name[20];
+    //printf("Tell me your name: \n");
+    //scanf("%s", name);
+
+    //char decorate[3];
+    //printf("Type 3 character: ");
+    //scanf("%s", decorate);
+    //strcat(decorate, name);
+    //scanf("%s", decorate);
+
+    //printf("%s", decorate);
+
     char name[20];
     printf("Tell me your name: \n");
     scanf("%s", name);
-    strcat("$$$", name);
+
+    char symo[] = "$$$";
+    char symb[] = "$$$";
+    strcat(symb, name);
+    strcat(symb, name);
+    printf("%s\n", symb);
     
     return 0;
 }
