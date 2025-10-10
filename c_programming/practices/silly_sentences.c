@@ -4,11 +4,21 @@
 
 int main(void){
     printf("Welcome to Silly Sentences. Answer the questions to get a silly sentence.");
-    verb = input("First I need a verb\n");
-    verb2 = input("Now I need a second verb\n").strip().lower();
-    sound = input("Now tell me a sound\n").strip().lower();
+    
+    char verb[30];
+    char verbs[30];
+    char sound[30];
 
-print("As I " + verb + " out the door, I started to " + verb2 + " because I heard a " + sound + ".");
+    printf("First I need a verb\n");
+    scanf("%s", &verb);
+
+    printf("Now I need a second verb\n");
+    scanf("%s", &verbs);
+
+    printf("Now tell me a sound\n");
+    scanf("%s", &sound);
+
+    printf("As I %s out the door, I started to %s because I heard a %s.\n", verb, verbs, sound);
 
     return 0;
 }
