@@ -21,9 +21,9 @@ int main(void){
 
     char symo[] = "$$$";
     char symb[] = "$$$";
-    strcat(symb, name);
-    strcat(symb, name);
-    printf("%s\n", symb);
+    strcat(symo, name);
+    strcat(name, symb);
+    printf("%s\n", symo);
     
     return 0;
 }
