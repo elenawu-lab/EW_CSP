@@ -3,18 +3,21 @@
 #include <string.h>
 
 int main(void){
-    while(int x = 0; x < 51; x++){
-        if(x = 0; x < 0 && x % 5 == 0){
-            printf("FizzBuzz");
+    int x = 1;
+
+    while(x < 51){
+        if(x % 3 == 0 && x % 5 == 0){
+            printf("FizzBuzz\n");
         }else if(x % 3 == 0){
-            printf("Fizz");
+            printf("Fizz\n");
         }else if(x % 5 == 0){
-            printf("Buzz");
+            printf("Buzz\n");
         }else{
-            printf(x);
+            printf("%d\n", x);
         }
+        x++;
     }
-        x += 1;
+
 
     return 0;
 }
