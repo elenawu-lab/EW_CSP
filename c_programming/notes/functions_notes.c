@@ -44,7 +44,7 @@ int main(void){
 // What are arguments and parameters?
     // Parameter is when we define, argument is the value of the variable.
 // How do arguments and parameters work together?
-    // 
+    // Arguments fill the empty space that parameters hold.
 // How to use parameters and arguments in C
     // It defines the functions and it makes the value of the function.
 // What are return statements?
